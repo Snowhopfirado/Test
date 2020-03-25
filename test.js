@@ -1,4 +1,4 @@
-let test = prompt('This is a test', 'Add text here');
-if (test !== null) {
-    alert('Test 1 successful');
+let test = prompt('This is a test but different', 'Add text here but different');
+if (test === 'Password') {
+    alert('Test 2 successful');
 };
